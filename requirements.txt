@@ -1,0 +1,37 @@
+# pip install -r requirements.txt
+# Base ----------------------------------------
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+tqdm>=4.41.0
+torch>=1.11.0+cu113
+torchvision>=0.12.0+cu113
+torchaudio
+# Logging -------------------------------------
+tensorboard>=2.4.1
+#wandb>=0.12.15
+opencv-python-headless==4.1.2.30
+# Plotting ------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+TensorRT
+# Export --------------------------------------
+coremltools>=4.1  # CoreML export
+onnx>=1.9.0  # ONNX export
+onnx-simplifier>=0.3.6  # ONNX simplifier
+scikit-learn>=0.19  # CoreML quantization
+# tensorflow>=2.4.1  # TFLite export
+# tensorflowjs>=3.9.0  # TF.js export
+#openvino-dev>=2022.1.0  # OpenVINO export
+# Extras --------------------------------------
+albumentations>=1.0.3
+Cython>=0.27.3  # for pycocotools https://github.com/cocodataset/cocoapi/issues/172
+pycocotools>=2.0  # COCO mAP
+#roboflow
+thop>=0.1.0.post2206102148
+Flask>=2.1.2
+tensorflow>=2.9.1
