@@ -990,7 +990,7 @@ def bbox_iouu(box1, box2, xywh=True, GIoU=False, DIoU=False, CIoU=True,EIoU=Fals
         if DIoU:
             return iou - adiou  # DIoU
         elif CIoU:  # https://github.com/Zzh-tju/DIoU-SSD-pytorch/blob/master/utils/box/box_utils.py#L47
-            return iou - (diou + ciou)  # CIoU
+            return iou - (diou + aciou)  # CIoU
         elif EIoU:
             return iou-0.5*(diou+eiou)
         elif SIoU:
